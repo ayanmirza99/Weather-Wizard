@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 475px) {
+    .card{
+        height: 630px;
+        width: 370px;
+    }
+    .image-container{
+        font-size: 1rem;
+    }
+    .main-temp{
+        padding-top: 20px;
+        font-size: 5rem;
+    }
+    .bottom-header{
+        font-size: 1.25rem;
+    }
+    .bottom-divs{
+        font-size: 1.85rem;
+    }
+    .btn-icon{
+        font-size: 1.4rem;
+    }
+    .search{
+        width: 13rem;
+    }
+    .error{
+        font-size: 1.7rem;
+    }
+    .error-animate{
+        width: 280px;
+    }
+}
+@media (max-width: 390px) {
+    .default{
+        font-size: 3rem;
+    }
+    .card{
+        width: 320px;
+        height: 600px;
+    }
+    .image-container{
+        font-size: 0.85rem;
+    }
+    .main-temp{
+        padding-top: 20px;
+        font-size: 4rem;
+    }
+    .bottom-header{
+        font-size: 1.25rem;
+    }
+    .bottom-divs{
+        font-size: 1.7rem;
+    }
+}
